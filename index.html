@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio ABC Consultant</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Marie Du Pen</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#recommendations">Recommendations</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <img src="/profile/profile.png" alt="Profil" />
+        <p>Passionate junior web developer with less than 5 years of experience, specialized in creating modern and responsive interfaces using HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+            <p>HTML5</p>
+            </div>
+            <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+            <p>CSS3</p>
+            </div>
+            <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS">
+            <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>To-do App</h3>
+                <p>Task management application using JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Resume Page</h3>
+                <p>Responsive resume template created with HTML/CSS.</p>
+            </div>
+            <div class="project">
+                <h3>Mini Gallery</h3>
+                <p>Filterable image gallery with JS animations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div class="recommendations-container" id="recommendationList">
+            <div class="recommendation">
+                <p>"Marie has great attention to detail and delivers high-quality projects."</p>
+                <strong>- Sophie L.</strong>
+            </div>
+            <div class="recommendation">
+                <p>"Always eager to learn and improve, a pleasure to work with her."</p>
+                <strong>- Marc T.</strong>
+            </div>
+            <div class="recommendation">
+                <p>"Professional and responsive, she understands the client's needs well."</p>
+                <strong>- Claire D.</strong>
+            </div>
+        </div>
+
+        <h3>Add a Recommendation</h3>
+        <form id="recommendationForm">
+            <input type="text" id="name" placeholder="Your name" required />
+            <textarea id="message" placeholder="Your recommendation" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <a href="#top" class="home-icon" title="Back to top">🏠</a>
+
+    <footer class="footer">
+        <p>&copy; 2023 Marie Du Pen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
